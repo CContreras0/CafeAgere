@@ -1,0 +1,54 @@
+.nav {
+    background-color: #ffffff;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo-min {
+        height: 70px;
+        width: 50px;
+        margin-left: 80px;
+    }
+
+    &__logo-text {
+        padding-inline: 50px;
+        font-family: "Pt mono";
+        font-size: 16px;
+    }
+
+    &__acess {
+        display: flex;
+    }
+
+    &__button {
+        display: inline-block;
+        padding-inline: 10px;
+        margin-right: 100px;
+        font-family: "Pt mono";
+        font-size: 16px;
+        height: 35px;
+
+    }
+
+    &__button--white {
+        background-color: #FFF;
+        border: 2px solid #989797;
+        color: #989797;
+        ;
+
+    }
+
+    &__button--green {
+        background-color: #4CA866;
+        border: 2px solid #4CA866;
+        color: #FFF;
+    }
+}

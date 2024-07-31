@@ -1,0 +1,39 @@
+.section {
+    margin: 0;
+
+    &__gallery {
+        display: flex;
+        width: 100vw;
+    }
+
+    &__big-img {
+        background-image: url("/assets/img/img-1.png");
+        background-size: auto;
+        width: 68vw;
+        height: calc(60vh - 38px);
+    }
+
+    &__text-container {
+        display: flex;
+        align-items: center;
+        height: 20vw;
+        width: 400px;
+        margin-left: 2vw;
+        flex-direction: column;
+        font-family: "pt mono";
+
+    }
+
+    &__text--big {
+        font-size: 60px;
+        margin: 0;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    &__text--small {
+        font-size: 22px;
+        margin: 0;
+        text-align: center;
+    }
+}
