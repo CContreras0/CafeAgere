@@ -68,7 +68,7 @@
         }
 
         &--machine {
-            background-image: url("/assets/img/img-2.png");
+            background-image: url("../img/img-2.png");
             background-size: 100% 100%;
             width: 30vw;
             height: 35vh;
@@ -95,7 +95,7 @@
 
     &__photo {
         &--arrow {
-            background-image: url("/assets/img/arrow-right-solid.svg");
+            background-image: url("../img/arrow-right-solid.svg");
             background-color: #E4572E;
             background-repeat: no-repeat;
             background-size: 50% 50%;
@@ -109,7 +109,7 @@
         }
 
         &--map {
-            background-image: url("/assets/img/img-4.png");
+            background-image: url("../img/img-4.png");
             background-size: cover;
             width: 30vw;
             height: 28vh;
@@ -120,7 +120,7 @@
         }
 
         &--coffee {
-            background-image: url("/assets/img/img-3.png");
+            background-image: url("../img/img-3.png");
             background-repeat: no-repeat;
             background-size: cover;
             width: 6vw;
